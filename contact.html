@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <style>
+        /* Add your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image:url(https://i.pinimg.com/originals/67/18/22/671822c2f63dd5f65d8fd15c9710420b.jpg) ;
+            background-size:cover;
+            background-position:inherit;
+        }
+        header {
+            background-color: #000000;
+            color: #2eb28b;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        section {
+            padding: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+<!--    button{
+            width: 80px;
+            height: 70px;
+            padding: 5px 0;
+            margin: 20px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #009688;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        span{
+            background:#009688;
+            height: 100%;
+            width: 0;
+            border-radius:25px ;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: 0.5s;
+        }
+        
+        button:hover span{
+            width: 100%;
+        }
+        button:hover{
+            border:none;
+        }
+         -->
+
+
+
+    </style>
+</head>
+<body>
+<div class="banr">
+    
+</div>
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<div>
+    <form>
+        <br>
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit<span></span></button>
+    </form>
+</div>
+
+<section>
+    <div class="button">
+        <a href="">
+            <button><img src="youtube.png" alt="youtube"><span></span></button>
+        </a>
+        <a href="">
+            <button><img src="github.png" alt="GitHub"><span></span></button>
+        </a>
+         <a href="">
+            <button><img src="instagram.png" alt="instagramm"><span></span></button>
+         </a>
+         <a href="">
+            <button><img src="linkedin.png" alt="linkedin"><span></span></button>
+         </a>
+
+    </div>
+</section>
+
+</body>
+</html>
